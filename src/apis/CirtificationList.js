@@ -8,6 +8,11 @@ class cirtification {
 
 export const CirtificationList = [
     new cirtification(
+        "Udemy Protocols", 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1667635442/Portfolio/cirtifications/Cir-Udemy-Protocols.jpg", 
+        "---", 
+        ),
+    new cirtification(
         "Udemy Nodejs", 
         "https://res.cloudinary.com/dbdacfhye/image/upload/v1667635442/Portfolio/cirtifications/Cir-Udemy-Backend.jpg", 
         "---", 

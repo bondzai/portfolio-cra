@@ -7,7 +7,14 @@ class skill {
     }
 }
 export const SkillList = [
+
     // ========== Programming Language ==========
+    new skill(
+        "Go", 
+        "https://www.vectorlogo.zone/logos/golang/golang-icon.svg", 
+        "https://go.dev/", 
+        "language", 
+        ),
     new skill(
         "JavaScript", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", 
@@ -26,12 +33,12 @@ export const SkillList = [
         "https://www.python.org/", 
         "language", 
         ),
-    // new skill(
-    //     "GraphQl", 
-    //     "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
-    //     "https://graphql.org/", 
-    //     "language", 
-    //     ),
+    new skill(
+        "GraphQl", 
+        "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
+        "https://graphql.org/", 
+        "language", 
+        ),
     new skill(
         "Shell", 
         "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg", 
@@ -44,6 +51,7 @@ export const SkillList = [
         "https://en.wikipedia.org/wiki/Programmable_logic_controller", 
         "language", 
         ),
+
     // ========== Backend ==========
     new skill(
         "NodeJS", 
@@ -70,29 +78,12 @@ export const SkillList = [
         "backend", 
         ),
     new skill(
-        "SQLite", 
-        "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg", 
-        "https://www.sqlite.org/index.html", 
-        "backend", 
-        ),
-    new skill(
-        "Postman", 
-        "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", 
-        "https://postman.com", 
-        "backend", 
-        ),
-    new skill(
-        "json", 
-        "https://www.vectorlogo.zone/logos/json/json-icon.svg", 
-        "https://www.json.org/json-en.html", 
-        "backend", 
-        ),
-    new skill(
         "jwt", 
         "https://img.icons8.com/color/2x/java-web-token.png", 
         "https://jwt.io/introduction", 
         "backend", 
         ),
+
     // ========== Frontend ==========
     new skill(
         "ReactJS", 
@@ -112,17 +103,24 @@ export const SkillList = [
         "https://www.w3schools.com/css/", 
         "frontend", 
         ),
-    new skill(
-        "Bootstrap", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg", 
-        "https://getbootstrap.com", 
-        "frontend", 
-        ),
+
     // ========== Databases ==========
+    new skill(
+        "Redis", 
+        "https://www.vectorlogo.zone/logos/redis/redis-icon.svg", 
+        "https://redis.io/", 
+        "database", 
+        ),
     new skill(
         "MongoDB", 
         "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", 
         "https://www.mongodb.com/", 
+        "database", 
+        ),
+    new skill(
+        "Postgres", 
+        "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg", 
+        "https://www.postgresql.org/", 
         "database", 
         ),
     new skill(
@@ -143,6 +141,19 @@ export const SkillList = [
         "https://firebase.google.com/", 
         "database", 
         ),
+    new skill(
+        "SQLite", 
+        "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg", 
+        "https://www.sqlite.org/index.html", 
+        "database", 
+        ),
+    new skill(
+        "Influx", 
+        "https://www.vectorlogo.zone/logos/influxdata/influxdata-icon.svg", 
+        "https://www.influxdata.com/", 
+        "database", 
+        ),
+
     // ========== OS ==========
     new skill(
         "Arch", 
@@ -162,6 +173,7 @@ export const SkillList = [
         "https://www.raspberrypi.com/software/", 
         "os", 
         ),
+
     // ========== DevOp & Other Tools ==========
     new skill(
         "Git", 
@@ -173,6 +185,12 @@ export const SkillList = [
         "GitHub", 
         "https://www.vectorlogo.zone/logos/github/github-icon.svg", 
         "https://github.com/", 
+        "tools", 
+        ),
+    new skill(
+        "VMware", 
+        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg", 
+        "https://www.vmware.com/", 
         "tools", 
         ),
     new skill(
@@ -194,35 +212,18 @@ export const SkillList = [
         "tools", 
         ),
     new skill(
-        "Xampp", 
-        "https://icons.iconarchive.com/icons/papirus-team/papirus-apps/64/xampp-icon.png", 
-        "https://www.apachefriends.org/", 
-        "tools", 
-        ),
-    new skill(
-        "GoogleCloud", 
-        "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg", 
-        "https://cloud.google.com", 
-        "tools", 
-        ),
-    new skill(
         "AWS", 
         "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg", 
         "https://aws.amazon.com/", 
         "tools", 
         ),
     new skill(
-        "Cloudinary", 
-        "https://brandeps.com/icon-download/C/Cloudinary-icon-vector-01.svg", 
-        "https://cloudinary.com/", 
+        "RabbitMQ", 
+        "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg", 
+        "https://www.rabbitmq.com/", 
         "tools", 
         ),
-    new skill(
-        "VMware", 
-        "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg", 
-        "https://www.vmware.com/", 
-        "tools", 
-        ),
+        
     // ========== Blockchain & smart contract ==========
 
     // ========== Automation & IOT Stuff ==========
