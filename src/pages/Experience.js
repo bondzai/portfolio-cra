@@ -89,12 +89,18 @@ const Experience = () => {
                     <h3 className="vertical-timeline-element-title"> Swift Dynamics Co., Ltd., Bangkok, Thailand </h3>
                     <p> Role: Backend Developer </p>
                     <p> Responsibilities: <br/>
-                        &emsp; -Fully focus on design & develop many type of backend services, logics, databases & APIs. <br/>
+                        &emsp; -Fully focus on design & develop many type of backend services (Database, logic & API). <br/>
+                        &emsp; -Implement communication networks & backend protocols. <br/>
                         &emsp; -Co-work with peer engineers in coding & code reviews. <br/>
                     </p>
                     <p> Specializes in: </p>
-                    <p> &emsp; - Languages: JavaScript, Python</p>
-                    <p> &emsp; - Backend Stacks: Node.js, Express.js, Django REST</p>
+                    <p> &emsp; - Languages: JavaScript, Python, Go</p>
+                    <p> &emsp; - Backend Stacks:</p>
+                    <p> &emsp;&emsp; - Python: Django REST</p>
+                    <p> &emsp;&emsp; - JavaScript: Node & Express</p>
+                    <p> &emsp;&emsp; - Go: Fiber & Gin</p>
+                    <p> &emsp; - Other tools & middlewares:</p>
+                    <p> &emsp;&emsp; - Infrastructure: Docker</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
