@@ -180,11 +180,17 @@ export const SkillList = [
         "os", 
         ),
     new skill(
+        "CentOS", 
+        "https://www.vectorlogo.zone/logos/centos/centos-icon.svg", 
+        "https://www.centos.org/", 
+        "os", 
+        ),
+    new skill(
         "Ubuntu", 
         "https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg", 
         "https://ubuntu.com/", 
         "os", 
-        ),
+        ),        
     new skill(
         "RaspberryPiOS", 
         "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg", 
