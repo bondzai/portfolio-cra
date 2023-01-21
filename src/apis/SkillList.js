@@ -54,6 +54,12 @@ export const SkillList = [
 
     // ========== Backend ==========
     new skill(
+        "Fiber", 
+        "https://www.gitbook.com/cdn-cgi/image/width=256,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F373165937-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-M-XEvRn3rhe8BDVGkss%252Favatar-rectangle.png%3Fgeneration%3D1582298855816936%26alt%3Dmedia", 
+        "https://docs.gofiber.io/", 
+        "backend", 
+        ),
+    new skill(
         "NodeJS", 
         "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg", 
         "https://nodejs.org", 
@@ -106,26 +112,14 @@ export const SkillList = [
 
     // ========== Databases ==========
     new skill(
-        "Redis", 
-        "https://www.vectorlogo.zone/logos/redis/redis-icon.svg", 
-        "https://redis.io/", 
-        "database", 
-        ),
-    new skill(
-        "MongoDB", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", 
-        "https://www.mongodb.com/", 
-        "database", 
-        ),
-    new skill(
         "Postgres", 
-        "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg", 
+        "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg", 
         "https://www.postgresql.org/", 
         "database", 
         ),
     new skill(
         "MySQL", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", 
+        "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg", 
         "https://www.mysql.com/", 
         "database", 
         ),
@@ -136,8 +130,20 @@ export const SkillList = [
         "database", 
         ),
     new skill(
+        "Influx", 
+        "https://www.vectorlogo.zone/logos/influxdata/influxdata-icon.svg", 
+        "https://www.influxdata.com/", 
+        "database", 
+        ),
+    new skill(
+        "MongoDB", 
+        "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg", 
+        "https://www.mongodb.com/", 
+        "database", 
+        ),
+    new skill(
         "Firebase", 
-        "https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg", 
+        "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg", 
         "https://firebase.google.com/", 
         "database", 
         ),
@@ -148,12 +154,11 @@ export const SkillList = [
         "database", 
         ),
     new skill(
-        "Influx", 
-        "https://www.vectorlogo.zone/logos/influxdata/influxdata-icon.svg", 
-        "https://www.influxdata.com/", 
+        "Redis", 
+        "https://www.vectorlogo.zone/logos/redis/redis-icon.svg", 
+        "https://redis.io/", 
         "database", 
         ),
-
     // ========== OS ==========
     new skill(
         "Arch", 
@@ -223,7 +228,18 @@ export const SkillList = [
         "https://www.rabbitmq.com/", 
         "tools", 
         ),
-        
+    new skill(
+        "Kafka", 
+        "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-vertical.svg", 
+        "https://kafka.apache.org/", 
+        "tools", 
+        ),
+    new skill(
+        "Nginx", 
+        "https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg", 
+        "https://www.nginx.com/", 
+        "tools", 
+        ),
     // ========== Blockchain & smart contract ==========
 
     // ========== Automation & IOT Stuff ==========
