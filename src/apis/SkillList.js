@@ -34,6 +34,12 @@ export const SkillList = [
         "language", 
         ),
     new skill(
+        "Lua", 
+        "https://www.vectorlogo.zone/logos/lua/lua-icon.svg", 
+        "https://www.lua.org/", 
+        "language", 
+        ),
+    new skill(
         "GraphQl", 
         "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
         "https://graphql.org/", 
@@ -154,11 +160,18 @@ export const SkillList = [
         "database", 
         ),
     new skill(
+        "Prometheus", 
+        "https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg", 
+        "https://prometheus.io/", 
+        "database", 
+        ),
+    new skill(
         "Redis", 
         "https://www.vectorlogo.zone/logos/redis/redis-icon.svg", 
         "https://redis.io/", 
         "database", 
         ),
+
     // ========== OS ==========
     new skill(
         "Arch", 
@@ -238,6 +251,12 @@ export const SkillList = [
         "Nginx", 
         "https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg", 
         "https://www.nginx.com/", 
+        "tools", 
+        ),
+    new skill(
+        "Grafana", 
+        "https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg", 
+        "https://grafana.com/", 
         "tools", 
         ),
     // ========== Blockchain & smart contract ==========
