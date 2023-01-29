@@ -8,6 +8,7 @@ import ProjectDisplay from './pages/ProjectDisplay';
 import Cirtifications from './pages/Cirtifications';
 import CirtificationDisplay from './pages/CirtificationDisplay';
 import Experience from './pages/Experience';
+import Contact from './pages/Contact';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path='/cirtifications' element={<Cirtifications/>}/>
                     <Route path='/cirtification/:id' element={<CirtificationDisplay/>}/>
                     <Route path='/experience' element={<Experience/>}/>
+                    <Route path='/contact' element={<Contact/>}/>
                 </Routes>
             </Router>
         </div>
