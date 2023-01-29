@@ -1,13 +1,9 @@
 import React from "react";
-import IconGithub from "@material-ui/icons/GitHub";
-import { SiReplit } from "react-icons/si";
+
 import Typewriter from 'typewriter-effect';
 import "../styles/Home.css";
 
 const Home = () => {
-    const openInNewTab = (e) => {
-        window.open(e, '_blank', 'noopener,noreferrer')
-    }
 
     return (
         <div className="home">
@@ -24,11 +20,7 @@ const Home = () => {
                             loop: true,
                         }}
                     />
-                <div className="socialMedia">
-                    <IconGithub onClick={() => openInNewTab('https://github.com/introbond')}/>
-                    <SiReplit onClick={() => openInNewTab('https://replit.com/@introbond')}/>
-                    <p> &copy; JB </p>
-                </div> 
+                <p> &copy; JB </p>
             </div>
         </div>
     )
