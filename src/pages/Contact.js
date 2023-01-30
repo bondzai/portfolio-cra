@@ -3,7 +3,6 @@ import Github from '../components/Github';
 import Typewriter from 'typewriter-effect';
 import IconGithub from "@material-ui/icons/GitHub";
 import { SiReplit } from "react-icons/si";
-// import { SpinnerDiamond } from 'spinners-react';
 
 import "../styles/Contact.css";
 
@@ -15,6 +14,7 @@ const Contact = () => {
     return (
 
         <div className="contact">
+            
             <div className="contact-info">
                 <p> <strong> Name: </strong> James-Bond, Puritat Chamart</p>
                 <p> <strong> Social Media: </strong> </p>
@@ -22,9 +22,11 @@ const Contact = () => {
                 <p> <strong> - Replit: </strong> https://replit.com/@introbond </p>
                 <p> <strong> - Email: </strong> introbond.dev@gmail.com </p>
             </div>
+
             <div className="github">
                 <Github/>
             </div>
+
             <div className="typewriter">
                 <Typewriter
                     onInit={(typewriter) => {
