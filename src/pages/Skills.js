@@ -13,10 +13,6 @@ const Skills = () => {
                         <SkillsFilter topic = "language"/>
                     </li>
                     <li>
-                        <b> Frontend </b>
-                        <SkillsFilter topic = "frontend"/>
-                    </li>
-                    <li>
                         <b> Backend </b>
                         <SkillsFilter topic = "backend"/>
                     </li>
@@ -31,6 +27,10 @@ const Skills = () => {
                     <li>
                         <b> OS </b>
                         <SkillsFilter topic = "os"/>
+                    </li>
+                    <li>
+                        <b> Frontend </b>
+                        <SkillsFilter topic = "frontend"/>
                     </li>
                     <li>
                         <b> Automation & IOT Stuff </b>

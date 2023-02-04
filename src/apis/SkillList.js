@@ -33,18 +33,12 @@ export const SkillList = [
         "https://www.python.org/", 
         "language", 
         ),
-    new skill(
-        "Lua", 
-        "https://www.vectorlogo.zone/logos/lua/lua-icon.svg", 
-        "https://www.lua.org/", 
-        "language", 
-        ),
-    new skill(
-        "GraphQl", 
-        "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
-        "https://graphql.org/", 
-        "language", 
-        ),
+    // new skill(
+    //     "Lua", 
+    //     "https://www.vectorlogo.zone/logos/lua/lua-icon.svg", 
+    //     "https://www.lua.org/", 
+    //     "language", 
+    //     ),
     new skill(
         "Shell", 
         "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg", 
@@ -93,6 +87,12 @@ export const SkillList = [
         "jwt", 
         "https://img.icons8.com/color/2x/java-web-token.png", 
         "https://jwt.io/introduction", 
+        "backend", 
+        ),
+    new skill(
+        "GraphQl", 
+        "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
+        "https://graphql.org/", 
         "backend", 
         ),
 
