@@ -7,7 +7,6 @@ class skill {
     }
 }
 export const SkillList = [
-
     // ========== Programming Language ==========
     new skill(
         "Go", 
@@ -50,6 +49,26 @@ export const SkillList = [
         "https://res.cloudinary.com/dbdacfhye/image/upload/v1668240741/Portfolio/skills/PLC.svg", 
         "https://en.wikipedia.org/wiki/Programmable_logic_controller", 
         "language", 
+        ),
+        
+    // ========== Frontend ==========
+    new skill(
+        "ReactJS", 
+        "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg", 
+        "https://reactjs.org/", 
+        "frontend", 
+    ),
+    new skill(
+        "HTML", 
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg", 
+        "https://www.w3.org/html/", 
+        "frontend", 
+        ),
+    new skill(
+        "CSS", 
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg", 
+        "https://www.w3schools.com/css/", 
+        "frontend", 
         ),
 
     // ========== Backend ==========
@@ -94,26 +113,6 @@ export const SkillList = [
         "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg", 
         "https://graphql.org/", 
         "backend", 
-        ),
-
-    // ========== Frontend ==========
-    new skill(
-        "ReactJS", 
-        "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg", 
-        "https://reactjs.org/", 
-        "frontend", 
-    ),
-    new skill(
-        "HTML", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg", 
-        "https://www.w3.org/html/", 
-        "frontend", 
-        ),
-    new skill(
-        "CSS", 
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg", 
-        "https://www.w3schools.com/css/", 
-        "frontend", 
         ),
 
     // ========== Databases ==========
@@ -170,32 +169,6 @@ export const SkillList = [
         "https://www.vectorlogo.zone/logos/redis/redis-icon.svg", 
         "https://redis.io/", 
         "database", 
-        ),
-
-    // ========== OS ==========
-    new skill(
-        "Arch", 
-        "https://www.vectorlogo.zone/logos/archlinux/archlinux-icon.svg", 
-        "https://archlinux.org/", 
-        "os", 
-        ),
-    new skill(
-        "CentOS", 
-        "https://www.vectorlogo.zone/logos/centos/centos-icon.svg", 
-        "https://www.centos.org/", 
-        "os", 
-        ),
-    new skill(
-        "Ubuntu", 
-        "https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg", 
-        "https://ubuntu.com/", 
-        "os", 
-        ),        
-    new skill(
-        "RaspberryPiOS", 
-        "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg", 
-        "https://www.raspberrypi.com/software/", 
-        "os", 
         ),
 
     // ========== DevOp & Other Tools ==========
@@ -266,6 +239,32 @@ export const SkillList = [
         "tools", 
         ),
     // ========== Blockchain & smart contract ==========
+
+    // ========== OS ==========
+    new skill(
+        "Arch", 
+        "https://www.vectorlogo.zone/logos/archlinux/archlinux-icon.svg", 
+        "https://archlinux.org/", 
+        "os", 
+        ),
+    new skill(
+        "CentOS", 
+        "https://www.vectorlogo.zone/logos/centos/centos-icon.svg", 
+        "https://www.centos.org/", 
+        "os", 
+        ),
+    new skill(
+        "Ubuntu", 
+        "https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg", 
+        "https://ubuntu.com/", 
+        "os", 
+        ),        
+    new skill(
+        "RaspberryPiOS", 
+        "https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg", 
+        "https://www.raspberrypi.com/software/", 
+        "os", 
+        ),
 
     // ========== Automation & IOT Stuff ==========
     new skill(
