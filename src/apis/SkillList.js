@@ -130,7 +130,7 @@ export const SkillList = [
         ),
     new skill(
         "SQLserver", 
-        "https://static.cdnlogo.com/logos/m/62/microsoft-sql-server.svg", 
+        "https://img.icons8.com/color/96/microsoft-sql-server.png", 
         "https://www.microsoft.com/en-us/sql-server/sql-server-downloads", 
         "database", 
         ),
@@ -242,6 +242,12 @@ export const SkillList = [
 
     // ========== OS ==========
     new skill(
+        "Mint", 
+        "https://img.icons8.com/color/1x/linux-mint.png", 
+        "https://linuxmint.com/", 
+        "os", 
+        ),
+    new skill(
         "Arch", 
         "https://www.vectorlogo.zone/logos/archlinux/archlinux-icon.svg", 
         "https://archlinux.org/", 
@@ -275,7 +281,7 @@ export const SkillList = [
         ),
     new skill(
         "Rockwell", 
-        "https://www.rockwellautomation.com/content/dam/rockwell-automation/sites/images/logos/2019_Logo_rgb_RA_Bug-LeftText_color.svg", 
+        "https://symbols-electrical.getvecta.com/stencil_262/71_rockwell-automation-icon.05b6277eb8.svg", 
         "https://www.rockwellautomation.com/en-us/tools/software-subscriptions-updated.html", 
         "automation", 
         ),
@@ -283,6 +289,12 @@ export const SkillList = [
         "Aveva", 
         "https://www.aveva.com/content/experience-fragments/aveva/en/site/header-2/master/_jcr_content/root/responsivegrid/globalheader/logo.coreimg.svg/1655394323761/header-logo.svg", 
         "https://www.aveva.com/en/solutions/operations/operations-control-hmi/", 
+        "automation", 
+        ),
+    new skill(
+        "SE", 
+        "https://res.cloudinary.com/dbdacfhye/image/upload/v1676471086/Portfolio/skills/SE.jpg", 
+        "https://www.se.com/th/en/work/products/industrial-automation-control/", 
         "automation", 
         ),
     ]
