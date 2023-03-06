@@ -1,4 +1,4 @@
-.cirtification-display {
+.certification-display {
     width: 100%;
     height: auto;
     display: flex;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.cirtification-display img {
+.certification-display img {
     position: relative;
     margin: 2%;
     overflow: hidden;
@@ -18,13 +18,13 @@
 }
 
 @media only screen and (max-width: 2000px) {
-    .cirtification-display img {
+    .certification-display img {
         width: 60%;
     }
 }
 
 @media only screen and (max-width: 1550px) {
-    .cirtification-display img {
+    .certification-display img {
         width: 60%;
         padding-top: 0%;
         padding-bottom: 10%;
@@ -32,7 +32,7 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .cirtification-display img {
+    .certification-display img {
         width: 60%;
         padding-top: 10%;
         padding-bottom: 10%;
@@ -40,7 +40,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .cirtification-display img {
+    .certification-display img {
         width: 60%;
         padding-top: 15%;
         padding-bottom: 40%;
@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 850px) {
-    .cirtification-display img {
+    .certification-display img {
         width: 100%;
         padding-top: 45%;
         padding-bottom: 65%;

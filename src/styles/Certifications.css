@@ -1,4 +1,4 @@
-.cirtifications {
+.certifications {
     width: 100%;
     height: auto;
     margin-top: 10px;
@@ -13,7 +13,7 @@
     animation-fill-mode: forwards;
 }
 
-.cirtificationList {
+.certificationList {
     width: 70vw;
     height: auto;
     display: grid;
@@ -22,7 +22,7 @@
 }
 
 /* MENU ITEM STYLING */
-.cirtification {
+.certification {
     border-radius: 10px;
     width: 400px;
     height: 300px;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.cirtification:hover {
+.certification:hover {
     transform: scale(1.02);
     filter: brightness(101%);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.cirtification .bgImage {
+.certification .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -52,27 +52,27 @@
 }
 
 @media only screen and (max-width: 1550px) {
-    .cirtificationList {
+    .certificationList {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 1050px) {
-    .cirtifications {
+    .certifications {
         font-size: 15px;
     }
 
-    .cirtificationList {
+    .certificationList {
         grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 1050px) {
-    .cirtificationList {
+    .certificationList {
         width: 100%;
     }
 
-    .cirtificationItem {
+    .certificationItem {
         width: 400px;
         height: 300px;
     }

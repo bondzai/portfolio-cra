@@ -8,8 +8,8 @@ const Navbar = () => {
     const location = useLocation();
 
     useEffect(() => {
-        setExpandNavbar(false)
-    },[location])
+        setExpandNavbar(false);
+    },[location]);
 
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link to="/experience"> Experience </Link>
                 <Link to="/skills"> Skills </Link>
                 <Link to="/projects"> Projects </Link>
-                <Link to="/cirtifications"> Cirtifications </Link>
+                <Link to="/certifications"> Certifications </Link>
                 <Link to="/contact"> Contact </Link>
             </div>
         </div>

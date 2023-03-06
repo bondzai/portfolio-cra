@@ -5,8 +5,8 @@ import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
-import Cirtifications from './pages/Cirtifications';
-import CirtificationDisplay from './pages/CirtificationDisplay';
+import Certifications from './pages/Certifications';
+import CertificationDisplay from './pages/CertificationDisplay';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 
@@ -20,8 +20,8 @@ function App() {
                     <Route path='/skills' element={<Skills/>}/>
                     <Route path='/projects' element={<Projects/>}/>
                     <Route path='/project/:id' element={<ProjectDisplay/>}/>
-                    <Route path='/cirtifications' element={<Cirtifications/>}/>
-                    <Route path='/cirtification/:id' element={<CirtificationDisplay/>}/>
+                    <Route path='/certifications' element={<Certifications/>}/>
+                    <Route path='/certification/:id' element={<CertificationDisplay/>}/>
                     <Route path='/experience' element={<Experience/>}/>
                     <Route path='/contact' element={<Contact/>}/>
                 </Routes>
