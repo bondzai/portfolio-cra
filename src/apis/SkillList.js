@@ -32,12 +32,6 @@ export const SkillList = [
         "https://www.python.org/", 
         "language", 
         ),
-    // new skill(
-    //     "Lua", 
-    //     "https://www.vectorlogo.zone/logos/lua/lua-icon.svg", 
-    //     "https://www.lua.org/", 
-    //     "language", 
-    //     ),
     new skill(
         "Shell", 
         "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg", 
@@ -91,9 +85,9 @@ export const SkillList = [
         "backend", 
         ),
     new skill(
-        "SocketIO", 
-        "https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg", 
-        "https://socket.io/", 
+        "NestJS", 
+        "https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg", 
+        "https://nestjs.com/", 
         "backend", 
         ),
     new skill(
@@ -103,9 +97,9 @@ export const SkillList = [
         "backend", 
         ),
     new skill(
-        "jwt", 
-        "https://img.icons8.com/color/2x/java-web-token.png", 
-        "https://jwt.io/introduction", 
+        "Flask", 
+        "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg", 
+        "https://flask.palletsprojects.com/en/2.2.x/", 
         "backend", 
         ),
     new skill(
@@ -291,10 +285,10 @@ export const SkillList = [
         "https://www.aveva.com/en/solutions/operations/operations-control-hmi/", 
         "automation", 
         ),
-    new skill(
-        "SE", 
-        "https://res.cloudinary.com/dbdacfhye/image/upload/v1676471086/Portfolio/skills/SE.jpg", 
-        "https://www.se.com/th/en/work/products/industrial-automation-control/", 
-        "automation", 
-        ),
+    // new skill(
+    //     "SE", 
+    //     "https://res.cloudinary.com/dbdacfhye/image/upload/v1676471086/Portfolio/skills/SE.jpg", 
+    //     "https://www.se.com/th/en/work/products/industrial-automation-control/", 
+    //     "automation", 
+    //     ),
     ]
