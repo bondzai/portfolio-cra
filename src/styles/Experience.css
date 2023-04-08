@@ -1,0 +1,6 @@
+.experience {
+    margin-top: 200px;
+    animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}

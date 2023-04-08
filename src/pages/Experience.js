@@ -15,6 +15,8 @@ const Experience = () => {
 
     return (
         <div className="experience">
+            <p>.</p>
+            <p>.</p>
             <VerticalTimeline lineColor="#3e497a">
                 <VerticalTimelineElement 
                     className="vertical-timeline-elemt--education"
