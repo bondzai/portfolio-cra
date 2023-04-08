@@ -9,7 +9,7 @@ const Certifications = () => {
             <h1> C E R T I F I C A T I O N S </h1>
             <div className="certificationList">
                 {CertificationList.map((certification, index) => {
-                    return <Certification key={index} id={index} {...certification}/>
+                    return <Certification key={index} id={index} {...certification} />
                 })}
             </div>
         </div>

@@ -14,16 +14,16 @@ function App() {
     return (
         <div className="App">
             <Router basename='/portfolio'>
-                <Navbar/>
+                <Navbar />
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/skills' element={<Skills/>}/>
-                    <Route path='/projects' element={<Projects/>}/>
-                    <Route path='/project/:id' element={<ProjectDisplay/>}/>
-                    <Route path='/certifications' element={<Certifications/>}/>
-                    <Route path='/certification/:id' element={<CertificationDisplay/>}/>
-                    <Route path='/experience' element={<Experience/>}/>
-                    <Route path='/contact' element={<Contact/>}/>
+                    <Route path='/' element={<Home />} />
+                    <Route path='/skills' element={<Skills />} />
+                    <Route path='/projects' element={<Projects />} />
+                    <Route path='/project/:id' element={<ProjectDisplay />} />
+                    <Route path='/certifications' element={<Certifications />} />
+                    <Route path='/certification/:id' element={<CertificationDisplay />} />
+                    <Route path='/experience' element={<Experience />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
             </Router>
         </div>
