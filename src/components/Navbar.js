@@ -1,32 +1,50 @@
-import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import ReorderIcon from "@material-ui/icons/Reorder"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import ReorderIcon from "@material-ui/icons/Reorder";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
     const [expandNavbar, setExpandNavbar] = useState(false);
-    const location = useLocation();
+    const [activeLink, setActiveLink] = useState("");
 
-    useEffect(() => {
+    const toggleNavbar = () => {
+        setExpandNavbar((prev) => !prev);
+    };
+
+    const handleLinkClick = (e) => {
+        setActiveLink(e.target.innerText);
         setExpandNavbar(false);
-    },[location]);
+    };
 
     return (
-        <div className="navbar" id={expandNavbar ? "open" : "close"}>
+        <div className={`navbar ${expandNavbar ? "open" : "closed"}`}>
             <div className="toggleButton">
-                <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
-                    <ReorderIcon/>    
-                </button>          
+                <button onClick={toggleNavbar}>
+                    <ReorderIcon />
+                </button>
             </div>
             <div className="links">
-                <Link to="/"> Home </Link>
-                <Link to="/experience"> Experience </Link>
-                <Link to="/skills"> Skills </Link>
-                <Link to="/projects"> Projects </Link>
-                <Link to="/certifications"> Certifications </Link>
-                <Link to="/contact"> Contact </Link>
+                <Link to="/" onClick={handleLinkClick} className={activeLink === "Home" ? "active" : ""}>
+                    Home
+                </Link>
+                <Link to="/experience" onClick={handleLinkClick} className={activeLink === "Experience" ? "active" : ""}>
+                    Experience
+                </Link>
+                <Link to="/skills" onClick={handleLinkClick} className={activeLink === "Skills" ? "active" : ""}>
+                    Skills
+                </Link>
+                <Link to="/projects" onClick={handleLinkClick} className={activeLink === "Projects" ? "active" : ""}>
+                    Projects
+                </Link>
+                <Link to="/certifications" onClick={handleLinkClick} className={activeLink === "Certifications" ? "active" : ""}>
+                    Certifications
+                </Link>
+                <Link to="/contact" onClick={handleLinkClick} className={activeLink === "Contact" ? "active" : ""}>
+                    Contact
+                </Link>
             </div>
         </div>
     );
 };
+
 export default Navbar;

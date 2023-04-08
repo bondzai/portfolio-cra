@@ -24,12 +24,8 @@
     color: lightyellow;
 }
 
-.links a:focus {
-    text-decoration-line: underline;
-}
-
-.links a:visited {
-    text-decoration-line: underline;
+.links a.active {
+  text-decoration: underline;
 }
 
 .navbar a {
