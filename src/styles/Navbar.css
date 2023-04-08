@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    height: 100px;
+    height: 70px;
     top: 0;
     background: #21325e;
     z-index: 2;
@@ -24,7 +24,11 @@
     color: lightyellow;
 }
 
-.links a:focus{
+.links a:focus {
+    text-decoration-line: underline;
+}
+
+.links a:visited {
     text-decoration-line: underline;
 }
 
